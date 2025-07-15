@@ -46,7 +46,7 @@ void ledOff (int led){
 void buttonWait (){
     while (!buttonState) {
     buttonState = digitalRead(buttonPin);
-   delay(1);
+    //delay(1);
   }
   while (buttonState) {
     buttonState = digitalRead(buttonPin);
